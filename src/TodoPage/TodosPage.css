@@ -1,0 +1,123 @@
+.title-container h1{
+    background-color: rgb(170, 125, 212);
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(97, 94, 94);
+    
+}
+
+.input-container input{
+    width: 300px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #c477be;
+    background-color: #d8d0d8;
+}
+.addButton{
+    width: 100px;
+    padding: 10px 14px;
+    border: none;
+    background-color: rgb(23, 165, 23);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.addButton:active{
+    /* border: 1px solid rgb(11, 240, 11); */
+    background-color: green;
+}
+.todos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.checkbox{
+    background-color: #dfddde;
+    padding: 10px;
+    border: 1px solid rgb(221, 189, 221);
+}
+.checkbox input{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+.todo-item{
+    display: flex;
+    margin: 10px;
+}
+.todo {
+    border: 1px solid rgb(221, 189, 221);
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 29, 29);
+    width: 700px;
+    height: 50px;
+}
+.completed {
+    text-decoration: line-through;
+}
+
+.editButton {
+    background-color: #116fda;
+    font-size: 16px;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.deleteButton {
+    background-color: rgb(202, 29, 29);
+    font-size: 16px;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.deleteButton:active {
+    background-color: red;
+}
+.dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    
+}
+.dropdown label {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+}
+select {
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-left: 5px;
+}
+select:hover {
+    background-color: #e6dde5;
+}
