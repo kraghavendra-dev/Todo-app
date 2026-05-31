@@ -1,16 +1,75 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo Application built with React.js that helps users manage daily tasks efficiently. Users can add, complete, filter, and delete tasks through an intuitive interface. The application also uses Local Storage to persist tasks even after refreshing or reopening the browser.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** https://todo-app-nine-ashen-lmi0183m50.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add new tasks
+* Mark tasks as completed
+* Delete tasks
+* Filter tasks by status:
 
-## Expanding the ESLint configuration
+  * All
+  * Pending
+  * Completed
+* Persist tasks using Local Storage
+* Real-time UI updates
+* Responsive design
+* Clean and user-friendly interface
+* State management using React Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Local Storage API
+
+## How It Works
+
+1. Enter a task in the input field.
+2. Click the **Add** button to create a new task.
+3. Mark tasks as completed when finished.
+4. Use the filters to view:
+   * All Tasks
+   * Pending Tasks
+   * Completed Tasks
+5. Delete tasks that are no longer needed.
+6. Tasks are automatically saved to Local Storage.
+7. Saved tasks remain available even after refreshing the page.
+
+## React Concepts Used
+
+* Functional Components
+* useState Hook
+* useEffect Hook
+* Event Handling
+* Conditional Rendering
+* List Rendering with `map()`
+* Filtering Data
+* Local Storage Integration
+
+## Future Enhancements
+
+* Edit existing tasks
+* Due dates and reminders
+* Dark mode
+* Drag-and-drop task reordering
+
+## Author
+
+**Raghavendra Karingu**
+
+Frontend Developer passionate about building modern web applications using React.js and JavaScript.
+
+### Connect With Me
+
+* GitHub: https://github.com/kraghavendra-dev
+* LinkedIn: https://www.linkedin.com/in/k-raghavendra-dev/
+
+
