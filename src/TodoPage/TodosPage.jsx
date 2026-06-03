@@ -84,8 +84,6 @@ const TodosPage = () => {
                        <span className={todo.completed ? "completed" : ""}>{todo.text}</span>
                     </div>
                     
-
-                    <button className='editButton'>Edit</button>
                     <button className='deleteButton' onClick={()=> handleDelete(todo.id)}>Delete</button>
                     
                 </div>

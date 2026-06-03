@@ -77,16 +77,6 @@ input:focus {
     text-decoration: line-through;
 }
 
-.editButton {
-    background-color: #116fda;
-    font-size: 16px;
-    color: white;
-    padding: 12px;
-    border: none;
-    width: 80px;
-    margin-left: 10px;
-    border-radius: 5px;
-}
 .deleteButton {
     background-color: rgb(202, 29, 29);
     font-size: 16px;
@@ -120,4 +110,85 @@ select {
 }
 select:hover {
     background-color: #e6dde5;
+}
+
+@media (max-width: 768px) {
+
+.addButton{
+    width: 80px;
+}
+.todos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.checkbox{
+    background-color: #dfddde;
+    padding: 10px;
+    border: 1px solid rgb(221, 189, 221);
+}
+.checkbox input{
+    height: 16px;
+    width: 16px;
+    margin-top: 3px;
+    text-align: center;
+}
+.todo-item{
+    display: flex;
+    margin: 8px;
+}
+.todo {
+    border: 1px solid rgb(221, 189, 221);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 29, 29);
+    width: 500px;
+    height: 50px;
+}
+
+
+.deleteButton {
+    width: 70px;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+}
+
+@media (max-width: 480px) {
+.addButton{
+    width: 70px;
+}
+.todo {
+    width: 300px;
+    height: 50px;
+}
+.deleteButton {
+    width: 60px;
+    font-size: 14px;
+    padding: 8px;
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    
+}
+
+}
+@media (max-width: 360px) {
+.addButton{
+    width: 60px;
+}
+
+.todo {
+    width: 200px;
+    height: 50px;
+}
+.deleteButton {
+    width: 60px;
+}
+
 }
