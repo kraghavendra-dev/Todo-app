@@ -4,7 +4,7 @@ A simple and responsive Todo Application built with React.js that helps users ma
 
 ## Live Demo
 
-🔗 **Live Demo:** https://todo-7ui13gvkx-kraghavendra-devs-projects.vercel.app/
+https://todo-app-nine-ashen-lmi0183m50.vercel.app/
 
 ## Features
 
